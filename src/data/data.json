@@ -1,0 +1,149 @@
+{
+  "Header": {
+    "title": "Sozoh Tech",
+    "paragraph": "Innovative, disruptive tech company prioritizing agility, collaboration, scalability, user-centric design, data-driven decisions, robust security, global reach, and sustainable practices for success."
+  },
+  "About": {
+    "paragraph": "Sozo Tech, a dynamic IT company, stands as a beacon of innovation and technological prowess. Fueled by a passion for excellence, we specialize in crafting cutting-edge solutions that transcend conventional boundaries. Our dedicated team of skilled professionals navigates the ever-evolving landscape of information technology, offering bespoke software development, robust cybersecurity solutions, and transformative digital strategies. At Sozo Tech, we don't just embrace change; we drive it. With a client-centric approach and a commitment to quality, we seamlessly blend creativity and technical expertise, ensuring our clients not only meet their goals but also stay ahead in the rapidly advancing digital realm",
+    "Why": [
+      "Innovative Solutions",
+      "Customized Approach",
+      "Proven Expertise",
+      "Reliability"
+    ],
+    "Why2": [
+      "Client-Centric Focus",
+      "Security Assurance",
+      "Scalability",
+      "Continuous Support"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Law empire",
+      "smallImage": "img/portfolio/law.jpg",
+      "link": "https://lawempirenigeria.com/"
+    },
+    {
+      "title": "Delta SHORE ENEGY",
+      "smallImage": "img/portfolio/energy.jpg",
+      "link": "https://deltashoreenergy.com/"
+    },
+    {
+      "title": "Real estate",
+      "smallImage": "img/portfolio/estate.jpg",
+      "link": "https://eitmayrealestate.com"
+    },
+    {
+      "title": "Empoerment food network",
+      "smallImage": "img/portfolio/Empowerment.webp",
+      "link": "https://empowermentfoodnetwork.com/"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Custom Software Development",
+      "text": "Tailored solutions to meet your unique business needs, encompassing everything from web and mobile applications to bespoke software"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Shopping Cart",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Cloud Services",
+      "text": "Seamless migration, management, and optimization of your operations in the cloud, ensuring scalability and cost-effectiveness."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Web Development",
+      "text": "Crafting engaging and responsive websites, ensuring a strong online presence and user experience."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Sozo Tech exceeded my expectations in developing our custom software. Their team's expertise in various tech languages ensured a seamless and efficient solution. The communication throughout the project was excellent, and they delivered on time and within budget. Highly recommended!.\"",
+      "name": "John F "
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Working with Sozo Tech was a game-changer for our business. Their innovative approach and mastery of diverse tech languages allowed us to create a cutting-edge app. The team was responsive and adaptable to our evolving needs. We look forward to future collaborations.\"",
+      "name": "Aly M"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Sozo Tech's commitment to quality is unparalleled. The software they developed for us is not only robust but also user-friendly. Their proficiency in multiple tech languages made them stand out among other companies we considered. Great experience overal.\"",
+      "name": "Mark S"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Our experience with Sozo Tech was exceptional from start to finish. The team's proficiency in a variety of tech languages allowed us to explore creative solutions for our software needs. What stood out was their attention to detail and commitment to delivering a product that not only met but exceeded our expectations. Sozo Tech is a reliable partner for anyone seeking cutting-edge technology solutions.\"",
+      "name": "Sarah K"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Sozo Tech's commitment to quality is unparalleled. The software they developed for us is not only robust but also user-friendly. Their proficiency in multiple tech languages made them stand out among other companies we considered. Great experience overal.\"",
+      "name": "Mark S"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Choosing Sozo Tech for our software development needs was one of the best decisions we made. Their team's versatility in tech languages ensured a scalable and future-proof solution. They were transparent throughout the development process, and the end result speaks volumes about their technical prowess.\"",
+      "name": "King S"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "2, Daina okolo close, lekki",
+    "phone": "+234 701 5009 775",
+    "email": "olorunwalaw@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "communication",
+      "text": "Our company stands out for its exemplary communication skills with clients. Through a commitment to clarity, conciseness, and timely responsiveness, you cultivate strong and trusting relationships. This proactive approach not only ensures client satisfaction but also contributes significantly to the overall success of the business. By maintaining open channels, addressing concerns promptly, and fostering effective dialogue, Our company establishes itself as a reliable and communicative partner, enriching the client experience and reinforcing our reputation for professionalism and excellence in client interactions."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Delivery",
+      "text": "Our commitment extends beyond the ordinary; we consistently deliver beyond expectations. With an unwavering dedication to excellence, we strive to surpass anticipations at every turn. Our products and services are crafted with precision, ensuring not just satisfaction but awe. It's a pledge to redefine standards, offering solutions that not only meet needs but elevate experiences. We embrace challenges as opportunities to showcase our ingenuity, pushing boundaries and setting new benchmarks. This ethos permeates our culture, driving innovation, and fostering a relentless pursuit of unparalleled quality. With us, the promise is not just delivery—it's an extraordinary journey that consistently exceeds the expectations of those we serve"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Collaboration",
+      "text": "Collaboration is our cornerstone, woven into the fabric of our core values. We believe in the power of collective effort, where diverse talents converge to achieve common goals. Through open communication, mutual respect, and shared vision, we foster a collaborative environment that propels us forward. Our commitment to collaboration fuels innovation, nurtures strong team bonds, and ensures that together, we surpass expectations, driving the success of our collective endeavors."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Commitment",
+      "text": "In the realm of technology, our commitment goes beyond mere functionality — we deliver magic through our tech product. Every line of code, every feature, and every user interaction is meticulously crafted to enchant and exceed expectations. Our product transcends utility, offering an experience that captivates and delights. It's not just about meeting needs; it's about creating moments of awe and seamless wonder. This dedication to delivering magic sets us apart, making every user journey with our tech product a spellbinding adventure. With innovation at our core, we turn the ordinary into the extraordinary, ensuring our users experience technological marvels with each interaction"
+    }
+  ]
+}
