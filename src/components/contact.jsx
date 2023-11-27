@@ -1,58 +1,71 @@
-import { useState, useEffect } from "react";
-import emailjs from "@emailjs/browser";
+import { useState } from "react";
+// import emailjs from "@emailjs/browser";
+import * as emailjs from "emailjs-com";
+// import { Helmet, HelmetProvider } from "react-helmet-async";
 import React from "react";
-import Swal from 'sweetalert2'
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
+import { contactConfig } from "../data/contact_config";
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
-
-  // initialize emailjs with the public key
-  useEffect(() => emailjs.init("P5A--XupAcWfW1-he"), []);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
+  const [formData, setFormdata] = useState({
+    email: "",
+    name: "",
+    message: "",
+    loading: false,
+    show: false,
+    alertmessage: "",
+    variant: "",
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(name, email, message);
+    setFormdata({ loading: true });
 
-    const serviceId = "contact_service";
-    const templateId = "contact_form";
-
-    try {
-      emailjs.send(serviceId, templateId, {
-        name: name,
-        email: email,
-        message: message,
-      }).then(result => {
-        Swal.fire({
-          title: "Good job!",
-          text: "your message has been sent successfully",
-          icon: "success"
-        });
-
-        clearState();
-      }).catch(error => {
-
-        Swal.fire({
-          title: 'Error!',
-          text: 'There is an error sending a message',
-          icon: 'error',
-        })
-      })
-
-    } catch (error) {
-      console.log(error);
+    const templateParams = {
+      from_name: formData.email,
+      user_name: formData.name,
+      to_name: contactConfig.YOUR_EMAIL,
+      message: formData.message,
     };
-  }
+
+    emailjs
+    .send(
+      contactConfig.YOUR_SERVICE_ID,
+      contactConfig.YOUR_TEMPLATE_ID,
+      templateParams,
+      contactConfig.YOUR_USER_ID
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+        setFormdata({
+          loading: false,
+          alertmessage: "SUCCESS! ,Thankyou for your messege",
+          variant: "success",
+          show: true,
+        });
+      },
+      (error) => {
+        console.log(error.text);
+        setFormdata({
+          alertmessage: `Faild to send!,${error.text}`,
+          variant: "danger",
+          show: true,
+        });
+        document.getElementsByClassName("co_alert")[0].scrollIntoView();
+      }
+    );
+
+ 
+};
+
+const handleChange = (e) => {
+  setFormdata({
+    ...formData,
+    [e.target.name]: e.target.value,
+  });
+};
+
 
   return (
     <div>
@@ -77,6 +90,7 @@ export const Contact = (props) => {
                         name="name"
                         className="form-control"
                         placeholder="Name"
+                        value={formData.name || ""}
                         required
                         onChange={handleChange}
                       />
@@ -91,6 +105,8 @@ export const Contact = (props) => {
                         name="email"
                         className="form-control"
                         placeholder="Email"
+                        value={formData.email || ""}
+
                         required
                         onChange={handleChange}
                       />
@@ -106,14 +122,24 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={formData.message}
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button className="btn btn-custom btn-lg" type="submit">
+                    {formData.loading ? "Sending..." : "Send Message"}
+                  </button>
+                {/* <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
-                </button >
+                </button > */}
+                <br />
+              {/* <Row>
+                <Col lg="12" className="form-group">
+                  
+                </Col>
+              </Row> */}
               </form>
             </div>
           </div>

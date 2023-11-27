@@ -145,5 +145,14 @@
       "title": "Commitment",
       "text": "In the realm of technology, our commitment goes beyond mere functionality — we deliver magic through our tech product. Every line of code, every feature, and every user interaction is meticulously crafted to enchant and exceed expectations. Our product transcends utility, offering an experience that captivates and delights. It's not just about meeting needs; it's about creating moments of awe and seamless wonder. This dedication to delivering magic sets us apart, making every user journey with our tech product a spellbinding adventure. With innovation at our core, we turn the ordinary into the extraordinary, ensuring our users experience technological marvels with each interaction"
     }
-  ]
+  ],
+ "contactConfig": {
+    "YOUR_EMAIL": "olorunwalawrence5@gmail.com",
+    "YOUR_FONE": "+2347015009775",
+    "description":
+      "Kindly send me a message and i will respond to you as soon as possible.",
+    "YOUR_SERVICE_ID": "contact_service",
+    "YOUR_TEMPLATE_ID": "contact_form",
+    "YOUR_USER_ID": "P5A--XupAcWfW1-he"
+  }
 }
